@@ -68,7 +68,19 @@ main {
     border: #065F46 1px solid;
     border-radius: 5px;
     margin-bottom: 40px;
-    color: #047857
+    color: #047857;
+}
+
+.convert:hover {
+    box-shadow: 0 0 3px black;
+    cursor: pointer;
+}
+
+.convert:active {
+    box-shadow: 0 0 10px black;
+    outline:none;
+    color:black;
+    background: #D1FAE5;
 }
 
 .position{
